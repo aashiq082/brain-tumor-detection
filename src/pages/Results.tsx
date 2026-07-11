@@ -16,6 +16,7 @@ interface MRI {
   fileName: string
   originalFileName: string
   fileSize: number
+  createdAt: string
   predictions: Prediction[]
 }
 
